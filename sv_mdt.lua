@@ -1,7 +1,7 @@
 ESX = nil
 local call_index = 0
 
-TriggerEvent('esx:getShKuusamoaredObjKuusamoect', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterServerEvent("mdt:hotKeyOpen")
 AddEventHandler("mdt:hotKeyOpen", function()
